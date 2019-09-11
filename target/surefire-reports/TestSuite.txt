@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.536 sec
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 27.121 sec <<< FAILURE!
+BLRLlogin(mavenDemoTest.MavenDemoTest.mevenLoginTest)  Time elapsed: 1.919 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://mistcloud.efleetsystems.com/dashboard] but found [https://mistcloud.efleetsystems.com/login]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at mavenDemoTest.MavenDemoTest.mevenLoginTest.BLRLlogin(mevenLoginTest.java:47)
+
+JMLogin(mavenDemoTest.MavenDemoTest.mevenLoginTest)  Time elapsed: 1.848 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://mistcloud.efleetsystems.com/dashboard] but found [https://mistcloud.efleetsystems.com/login]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at mavenDemoTest.MavenDemoTest.mevenLoginTest.JMLogin(mevenLoginTest.java:75)
+
