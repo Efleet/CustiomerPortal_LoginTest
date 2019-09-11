@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33450" started-at="2019-09-11T10:44:00Z" finished-at="2019-09-11T10:44:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33450" started-at="2019-09-11T10:44:00Z" finished-at="2019-09-11T10:44:33Z">
+      <class name="mavenDemoTest.MavenDemoTest.mevenLoginTest">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="launchbrowser" is-config="true" duration-ms="12046" started-at="2019-09-11T16:14:00Z" finished-at="2019-09-11T16:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="BLRLlogin()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="BLRLlogin" duration-ms="4057" started-at="2019-09-11T16:14:12Z" finished-at="2019-09-11T16:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BLRLlogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="close" is-config="true" duration-ms="398" started-at="2019-09-11T16:14:16Z" finished-at="2019-09-11T16:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="launchbrowser" is-config="true" duration-ms="8862" started-at="2019-09-11T16:14:16Z" finished-at="2019-09-11T16:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="JMLogin()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="JMLogin" duration-ms="5768" started-at="2019-09-11T16:14:25Z" finished-at="2019-09-11T16:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JMLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mavenDemoTest.MavenDemoTest.mevenLoginTest@4411d970]" name="close" is-config="true" duration-ms="2303" started-at="2019-09-11T16:14:31Z" finished-at="2019-09-11T16:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavenDemoTest.MavenDemoTest.mevenLoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
