@@ -65,7 +65,7 @@ public class mevenLoginTest
 		  driver.findElement(By.id("password")).sendKeys("9850917845");
 		  driver.findElement(By.xpath("//input[@value='Log in']")).click();
 		  try {
-			Thread.sleep(1500);
+			Thread.sleep(00);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
